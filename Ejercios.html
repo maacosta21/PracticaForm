@@ -17,23 +17,22 @@
     <img src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?ssl=1" alt="">
   </figure>
 
-  <section class="nombre">
-    <div class="nombre-div" id="nombre-div">
+  <section class="lenguajeCSS-template">
+    <div class="section-name" id="nombre-div">
         <h1>Bienvenido</h1>
         <p>Para continuar, por favor ingresa tu nombre</p>
-        <form action="" class="nombre-div" id="button-name">
+        <form action="" class="nombre-div" id="section-name__form">
         <label for="nombre"></label>
         <input type="text" name="nombre" id="nombre" required>
-        <input type="submit" class="primary-button">
+        <button class="primary-button">Enviar</button>
         </form>
     </div>
-    
   </section>
 
-  <section id="lenguaje-programacion" class="lenguajeCSS">
+  <section id="lenguaje-programacion" class="lenguajeCSS-template inactive">
     <h1 id="inner-name"></h1>
     <p>Elige tu lenguaje de programacion favorito:</p>
-        <form action="" id="program-language" class="lenguajeCSS">
+        <form action="" id="program-language">
         <input list="lenguajes" id="favorite-language" required/>
             <datalist id="lenguajes">
                 <option value="Javascript"></option>
@@ -43,12 +42,32 @@
             </datalist>
         <button class="primary-button">Enviar</button>
       </form>
+      <figure class="return-button">
+        <div class="return-button__language" id="return-button__language">
+          <img src="https://icons.veryicon.com/png/o/miscellaneous/medical-system-icon/return-button.png" alt="" class="return-button__img">
+        </div>
+      </figure>
   </section>
 
-  <section id="personal-info" class="lenguajeCSS">
-    <p>Nos alegra que te guste ese lenguaje de programacion</p>
-    <p>Ahora necesitamos mas informacion personal</p>
-    <p>Por favor indicanos tu fecha de nacimiento</p>
+  <section id="personal-info" class="lenguajeCSS-template inactive">
+    <h1>Continuemos</h1>
+   <form action="" id="personal-info__form">
+      <div>
+        <p>Te vamos a pedir informacion personal. Empecemos por tu fecha de nacimiento.</p>
+        <input type="date" id="personal-info__birth" value="">
+      </div>
+
+      <div>
+        <p>Ahora, ingresa tu numero de cedula</p>
+        <input type="number" id="personal-info__id" placeholder="Ingresa ID (Cedula)" value="">
+        <input type="submit" class="primary-button">
+      </div>
+   </form>
+   <figure class="return-button">
+    <div class="return-button__Personalinfo" id="return-button__Personalinfo">
+      <img src="https://icons.veryicon.com/png/o/miscellaneous/medical-system-icon/return-button.png" alt="" class="return-button__img">
+    </div>
+  </figure>
   </section>
     
 </body>
