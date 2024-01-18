@@ -4,11 +4,26 @@
     margin: 0;
 }
 
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .jav-logo{
-    padding-top: 100px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 }
 .jav-logo img{
