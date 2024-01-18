@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src="./pruebas.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cssEJercicios.CSS">
+    <meta name="robots" content="index, follow">
+    <title>Javascript: Bienvenido</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@100;300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <figure class="jav-logo">
+    <img src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?ssl=1" alt="">
+  </figure>
+
+  <section class="nombre">
+    <div class="nombre-div" id="nombre-div">
+        <h1>Bienvenido</h1>
+        <p>Para continuar, por favor ingresa tu nombre</p>
+        <form action="" class="nombre-div" id="button-name">
+        <label for="nombre"></label>
+        <input type="text" name="nombre" id="nombre" required>
+        <input type="submit" class="primary-button">
+        </form>
+    </div>
+    
+  </section>
+
+  <section id="lenguaje-programacion" class="lenguajeCSS">
+    <h1 id="inner-name"></h1>
+    <p>Elige tu lenguaje de programacion favorito:</p>
+        <form action="" id="program-language" class="lenguajeCSS">
+        <input list="lenguajes" id="favorite-language" required/>
+            <datalist id="lenguajes">
+                <option value="Javascript"></option>
+                <option value="Python"></option>
+                <option value="SQL"></option>
+                <option value="Java"></option>
+            </datalist>
+        <button class="primary-button">Enviar</button>
+      </form>
+  </section>
+
+  <section id="personal-info" class="lenguajeCSS">
+    <p>Nos alegra que te guste ese lenguaje de programacion</p>
+    <p>Ahora necesitamos mas informacion personal</p>
+    <p>Por favor indicanos tu fecha de nacimiento</p>
+  </section>
+    
+</body>
+</html>
+ 
