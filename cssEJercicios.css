@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.jav-logo{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.jav-logo img{
+    height: 200px;
+    width: 200px;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.nombre-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 18px 0 20px 0;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #f0f0f5;
+    border: solid 1px #d3d3d3;
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+}
+
+.primary-button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #ffd700;
+    color: white;
+    font-weight: bold;
+}
+.lenguajeCSS-template{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.lenguajeCSS-template form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.lenguajeCSS-template form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.lenguajeCSS-template p{
+    padding: 0 0 15px 0;
+}
+
+.text-decoration li{
+    list-style-type: none;
+}
+.return-button{
+    padding-bottom: 20px;
+}
+.return-button__img{
+    height: 25px;
+    width: 25px;
+    background-color: gainsboro;
+    border-radius: 40px;
+    padding: 8px;
+}
+
+.inactive{
+    display: none;
+}
